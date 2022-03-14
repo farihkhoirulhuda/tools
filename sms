@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>SMS Gratis via internet</title>
+<meta name="description" content="Kirim SMS Gratis Send Free SMS to Indonesia via internet" />
+<meta name="alexaVerifyID" content="rKU8v7j1YTGBl-h7ndGJLV5_St0" />
+
+<script language=JavaScript>
+<!--
+function check_length(my_form)
+{
+maxLen = 160; // max number of characters allowed
+if (my_form.Text.value.length >= maxLen) {
+// Alert message if maximum limit is reached.
+// If required Alert can be removed.
+var msg = "You have reached your maximum limit of characters allowed";
+alert(msg);
+// Reached the Maximum length so trim the textarea
+my_form.Text.value = my_form.Text.value.substring(0, maxLen);
+}
+else{ // Maximum length not reached so update the value of Text counter
+my_form.text_num.value = maxLen - my_form.Text.value.length;}
+}
+//-->
+</script>
+<form method="post" enctype="multipart-form-data" name="my_form" onsubmit="clearTextBoxCounter()" action="kirim.php" >
+
+  <input type=hidden name=teks value=>Send Free SMS Gratis<br>
+<a href="https://www.karpetmasjid.id/post-sitemap.xml" target="_blank"><img src="no.gif" alt="Nomor HP" width="78" height="17" border="0" /></a><br />
+Example 0812xx/02173xx<br />
+  <input class="field text small" type="text" maxlength="20" name="Phonenumbers" />
+  <br />
+ 
+  <a href="http://www.sms-online.web.id" target="_blank"><img src="sms.gif" alt="Isi SMS" width="78" height="17" border="0" /></a>
+ <br>
+
+
+
+  <textarea rows="4" cols="20" onKeyPress=check_length(this.form); onKeyDown=check_length(this.form); name=Text ></textarea>
+<br />
+<a href="https://www.karpetmasjid.id/" target="_blank"><img src="http://www.sms-online.web.id/widget/karpetmasjid-widget.png" /></a><br />
+<input id="saveForm" class="btTxt" type="submit" value="Send SMS" name="TOMBOL" />
+
+ <input  value=160 name=text_num disabled="disabled" size="2" readonly="readonly" > left char
+
+
+
+
+
+
+
+
+<!-- Histats.com  START (hidden counter)-->
+
+<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<a href="http://www.histats.com" target="_blank" title="web hit counter" ><script  type="text/javascript" >
+try {Histats.start(1,2279404,4,0,0,0,"");
+Histats.track_hits();} catch(err){};
+</script></a>
+<noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?2279404&101" alt="web hit counter" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+
+
